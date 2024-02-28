@@ -1,0 +1,80 @@
+:root{
+    background-color: #1f242d;
+}
+
+h1{
+    display:inline-flex;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(10, 160, 187);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 50px cyan;
+    margin: 0px 80px;
+}
+h3{
+    color: white;
+    margin: 0  90px;
+    font-size: larger;
+    font-style:normal;
+    font-family: normal ;
+    border-radius: 30px;
+    text-align:inherit;
+    border-style: calc(300px);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+span{
+    color: cyan;
+    font-size: xx-large;
+}
+.rightsection{
+    margin: 80px 50px;
+    align-self: auto;
+    float: right;
+}
+div img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    background: transparent;
+    margin: 50px;
+    color: #0ef;
+    border-radius: 500%;
+    box-shadow: 0 0  50px cyan , 0 0 90px rgb(252, 252, 252);
+    border-style:groove;
+
+}
+.leftsection{
+    margin: 20px;
+    height: 20px;
+}
+/* div ul li a:hover{
+    color: aqua;
+    font-size: 0.8rem;
+}
+div ul {
+    display: flex;
+    justify-content: center;
+    height: 23px;
+}
+div ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size:110%;
+    font-style: normal;
+}
+div ul li a:hover{
+    text-shadow: 0 0 5px cyan , 0 0 25px cyan;
+}
+.right{
+    text-align: end;
+    text-transform: capitalize;
+    font-size: smaller;
+    justify-content: right;
+    display: flex;
+   } */

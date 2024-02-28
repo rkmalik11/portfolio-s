@@ -1,0 +1,74 @@
+:root{
+    background-color: #1f242d;
+    
+  }
+h1{
+  display:inline-flex;
+  padding: 12px 20px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(10, 160, 187);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 50px cyan;
+  margin: 50px 80px;
+}
+h2 {
+  color: rgb(10, 160, 187);
+  display: inline-flex;
+  font-size: xx-large;
+  padding: 12px 12px ;
+  letter-spacing: 2px;
+  margin: 0.5px 50px;
+}
+.services-list {
+ border: solid calc(5px);
+ border-color: #0ef;
+ border-radius: 20px;
+ box-shadow: 0px 5px 15px  cyan;
+ /* background-color: rgb(113, 130, 150); */
+ width: 40vw;
+ margin:  10 px 40px;
+ 
+}
+.services-list i {
+ font-size: 39px;
+ width: 15px;
+ margin: 2px;
+}
+.services-list h2 {
+  margin: 15px;
+  color: #0ef;
+}
+.services-list p {
+  color: white;
+  font-size: larger;
+  margin: 20px 30px;
+}
+.services-listed p {
+  color: white;
+  font-size: larger;
+  margin: 20px 30px;
+}
+.services-listed {
+  border: solid calc(5px);
+  border-color: #0ef;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px  cyan;
+  /* background-color: rgb(113, 130, 150); */
+  width: 40vw;
+  margin :  40px90px;
+  
+ }
+.services-listed h2 {
+  margin: 15px;
+  color: #0ef;
+}
+.services-listed i {
+  font-size: 39px;
+  width: 15px;
+  margin: 2px;
+ }
+

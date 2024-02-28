@@ -1,0 +1,90 @@
+span {
+    color: aqua;
+    font-weight: 30px;
+}
+:root{
+    background-color: #1f242d;
+    
+  }
+
+ .Contact {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin: 50px;
+    
+ } 
+.Contact-list{
+   color: white;
+  
+}
+.Contact h2 {
+   color: white;
+   font-size: 40px;
+   line-height: 1;
+   
+   /* text-align: center; */
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    margin-top: auto;
+    width: 60%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+
+}
+.contact-form form .send{
+display:inline-flex;
+padding: 20px 20px;
+background: #0ef;
+border-radius: 40px;
+font-size: 16px;
+color: rgb(10, 160, 187);
+letter-spacing: 1px;
+text-decoration: none;
+font-weight: 600;
+box-shadow: 0 0 50px cyan;
+margin: 50px 19px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 35px;
+    color: aqua;
+    text-decoration:none;
+    margin: 30px 15px 30px 0;
+
+}
+.home-sci a :hover{
+    background:aqua;
+    color: rgb(10, 160, 187);
+    box-shadow: 0 0 25px #0ef , 0 0 50px #0ef ;
+}
+.last-text p{
+    width: 100%;
+    text-align: left;
+    padding: 25px 0 ;
+    color: white;
+}
